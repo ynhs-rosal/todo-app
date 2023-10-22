@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>To-Do</h2>
+        <form class="todo-app__add">
+          <input
+            class="todo-app__add-input"
+            type="text"
+            placeholder="Add your task..."
+          />
+          <button type="submit">Add</button>
+        </form>
+        <div class="todo-app__alert" style="display: none">
+          <h5>There was an error, please try later....</h5>
+        </div>
+        <div class="todo-app__list-loading">
+          <h5>Loading, please wait....</h5>
+        </div>
+        <ul class="todo-app__list"></ul>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/c893eaf40b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./scripts/tasks.js"></script>
+  </body>
+</html>
