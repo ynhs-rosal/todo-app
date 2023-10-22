@@ -2,7 +2,7 @@
 
 ## Overview
 
-This basic app is created for beginners who are trying to learn Node.js and wanted to gain a practical experience. It's straightforward and allows to add, update, complete and delete tasks.
+This basic app is created for beginners who are trying to learn Node.js and wanted to gain a practical experience. It's straightforward and allows to add, update, complete and delete tasks. It's based from [Node Tutorial and Projects Course in Udemy by John Smilga](https://www.udemy.com/course/nodejs-tutorial-and-projects-course/)
 
 ## Usage
 
