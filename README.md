@@ -11,6 +11,8 @@ This basic app is created for beginners who are trying to learn Node.js and want
 3. Update open or completed tasks.
 4. Delete tasks.
 
+<img width="503" alt="Screen Shot 2023-10-23 at 1 05 13 AM" src="https://github.com/ynhs-rosal/todo-app/assets/89345173/f38cc110-cfda-4541-a6a2-befb83c9533b">
+
 ## Getting Started
 
 1. Clone this repository.
